@@ -147,3 +147,19 @@ transform: scale(1.1);
     border-color: #fa8bff ;
     background: #fa8bff;
 }
+
+
+@media all and (max-width: 912px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+        margin-top: 150px;
+    }
+    .cart-nav{
+        display: flex;
+        margin-right: 5%;
+        margin-top: -15%;
+        
+    }
+}
