@@ -21,3 +21,44 @@ body{
     justify-content: space-between;
     padding: 20px;
 }
+
+.wrapper .cart-nav{
+    position: absolute;
+    top: 15%;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly ;
+    width: 180px;
+    background: #fff;
+    padding: 13px 15px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.15);
+    cursor: pointer;
+}
+
+.cart-nav .icon{
+    color:#c850c0
+}
+
+.cart-nav .icon i{
+    font-size: 20px;
+}
+
+.cart-nav .icon span{
+    font-weight: 500;
+}
+
+.cart-nav .item-count{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #c850c0;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.wrapper .card:hover .content{
+bottom: 0;
+}
